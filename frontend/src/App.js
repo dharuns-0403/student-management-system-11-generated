@@ -6,6 +6,7 @@ import NonFunctionals from './pages/NonFunctionals';
 import Benefitss from './pages/Benefitss';
 import WantToAddTexthelooInTheHeader from './components/WantToAddTexthelooInTheHeader';
 import WantToAddTexthelloStudentsInTheHeader from './components/WantToAddTexthelloStudentsInTheHeader';
+import WantToAddLoginSignUpFormAsAMainStartingPageForThisStudentManagementSystem from './components/WantToAddLoginSignUpFormAsAMainStartingPageForThisStudentManagementSystem';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/benefits,s" element={<Benefitss />} />
           <Route path="/wanttoaddtextheloointheheader" element={<WantToAddTexthelooInTheHeader />} />
           <Route path="/wanttoaddtexthellostudentsintheheader" element={<WantToAddTexthelloStudentsInTheHeader />} />
+          <Route path="/wanttoaddloginsignupformasamainstartingpageforthisstudentmanagementsystem" element={<WantToAddLoginSignUpFormAsAMainStartingPageForThisStudentManagementSystem />} />
       </Routes>
     </BrowserRouter>
   );

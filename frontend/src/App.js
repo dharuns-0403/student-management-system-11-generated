@@ -5,6 +5,7 @@ import Students from './pages/Students';
 import NonFunctionals from './pages/NonFunctionals';
 import Benefitss from './pages/Benefitss';
 import WantToAddTexthelooInTheHeader from './components/WantToAddTexthelooInTheHeader';
+import WantToAddTexthelloStudentsInTheHeader from './components/WantToAddTexthelloStudentsInTheHeader';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/non-functionals" element={<NonFunctionals />} />
         <Route path="/benefits,s" element={<Benefitss />} />
           <Route path="/wanttoaddtextheloointheheader" element={<WantToAddTexthelooInTheHeader />} />
+          <Route path="/wanttoaddtexthellostudentsintheheader" element={<WantToAddTexthelloStudentsInTheHeader />} />
       </Routes>
     </BrowserRouter>
   );

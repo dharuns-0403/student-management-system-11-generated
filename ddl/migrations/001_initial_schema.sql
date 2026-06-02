@@ -1,0 +1,3 @@
+-- Migration template
+-- Use this file to add schema changes over time
+-- Example: ALTER TABLE table_name ADD COLUMN column_name TYPE;
